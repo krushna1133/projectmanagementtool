@@ -23,7 +23,7 @@ function Sidebar({ currentView, setCurrentView }) {
   return (
     <div className="w-64 bg-white shadow-lg">
       <div className="p-6">
-        <h2 className="text-2xl font-bold text-gray-800">ProjectHub</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Project Management Tool</h2>
       </div>
       <nav className="mt-6">
         {menuItems.map((item) => (
